@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UmPlanetaVivo</title>
+        <link rel="stylesheet" href="sytle.css">
+    </head>
+
+    <body>
+        <header class="cabeçalho">
+            <h1 class="cabeçalho-titulo">Um Planeta Vivo</h1>
+            <nav class="cabeçalho-nav">
+                <ul class="cabeçalho-lista">
+                    <li class="cabeçalho-lista-item"><a href="index.html">Sobre nós</a></li>
+                    <li class="cabeçalho-lista-item"><a href="doações.html">Doações</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form class="formulario">
+            <label for="nomesobrenome">Nome e Sobrenome</label><input type="text" name="nomesobrenome" class="formulario-nome">
+            <fieldset>
+                <legend class="formulario-legenda">Sua escolha forma de doação</legend>
+                <label for="radio-banco"><input type="radio" class="formulario-botão">Bancos (MasterCard,Visa,NUbank e etc.)</label>
+                        
+                <label for="radio-pix"><input type="radio" class="formulario-botão">Pix</label>
+                
+                <label for="radio-boleto"><input type="radio" class="formulario-botão">Boleto</label>
+            </fieldset>
+            <input type="submit" value="Enviar Doação" class="formulario-enviar">
+        </form>
+        <div><img class="doação-imagem" src="reflorestamento.jpg" alt="Reflorestamento da Amazônia"></div>
+
+        <footer class="rodapé">
+            <p class="copyright">&copy; Copyright Um Planeta Vivo - 2022</p>
+        </footer>
+    </body> 
+</html>
